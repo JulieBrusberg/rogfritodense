@@ -8,7 +8,7 @@
         margin-left: 1%;
     }
     .portfoliowrapper{
-        background-image: url(/billeder/bgpc.png);
+        background-image: url(../billeder/bgpc.png);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -20,8 +20,8 @@
     }  
     .box1{
         box-sizing: border-box;
-        width: 500px;
-        height: 500px;
+        width: 200%;
+        height: 50%;
         color: black;
         font-size: 200%;
         font-weight: bolder;
@@ -40,8 +40,8 @@
     } 
     .box2{
         background-color: white;
-        width: 900px;
-        height: 600px;
+        width: 200%;
+        height: 85%;
         box-sizing: border-box;
         padding: 10px;
         color: black;
