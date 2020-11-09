@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="dk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/java.js" defer></script>    
+    <title>Røgfrit Odense, Lommeregner</title>
+</head>
+
+<body>
+
+    <div class="portfoliowrapper">
+        <div>
+            <img src="/billeder/logo.png" class="logo" alt="logo">
+        </div>
+        <div class="wrapper">
+            <div class="box1">
+                <div>Har du også svært ved at se hvad
+                    <br>
+                    du vinder ved at stoppe med at ryge?
+                    <br>
+                    <div class="box1a">
+                        Men med denne smarte
+                        <br>
+                        lommeregner kan du nemt udregne
+                        <br>
+                        hvor mange penge du har sparet
+                        <br>
+                        ved at kvitte smøgerne!
+                    </div>
+
+                    <div class="box1a">
+                        Det eneste du skal gøre er at udfylde
+                        <br>
+                        den manglende data i lommeregneren,
+                        <br>
+                        og se dit resultat!
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="a">  
+                    <p class="box1a">Hvor mange cigaretter røg du om dagen?</p>
+                    <label class="box1a">Vælg antal</label>
+                    <td><select id="antal"></select></td>
+                </div>
+                <div class="b">
+                    <label class="box1a">Hvor længe har du været røgfri?</label>
+                    <input type="text" class="tal" id="tal">
+                    <td><select id="langde"></select></td>
+                </div>
+                <br>
+                <div class="c">
+                    <button onclick="beregn()" id="beregn">BEREGN</button>
+                </div>
+                <div class="box1a">
+                    <p>Du har indtil videre sparet i kr.</p>
+                </div>
+                <div >
+                    <input type="text" class="tal" id="result">
+                </div>
+                <div class="box1a">
+                    <p>Du kan istedet bruge dine penge på</p>
+                </div>
+                <div class="g">
+                    <input type="text" class="tal" id="stammer">
+                </div>
+                <div class="box1a">
+                    <p>træstammer hos din lokale bager!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
