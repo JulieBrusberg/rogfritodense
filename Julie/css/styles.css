@@ -20,7 +20,7 @@
     }  
     .box1{
         box-sizing: border-box;
-        width: 200%;
+        width: 150%;
         height: 50%;
         color: black;
         font-size: 200%;
@@ -29,7 +29,7 @@
         flex: 1 0 250px;
         margin-top: 12%;
         margin-left: 5%;
-        margin-right: 15%;
+       
     }
     .box1a{
         color: #000000;
@@ -40,7 +40,7 @@
     } 
     .box2{
         background-color: white;
-        width: 200%;
+        width: 250%;
         height: 85%;
         box-sizing: border-box;
         padding: 10px;
@@ -54,7 +54,7 @@
         flex: 1 0 250px;
         margin-right: 6%;
         margin-bottom: 5%;
-        margin-top: 4%;
+        margin-top: 2%;
         flex-direction: column;
         border: solid black;
     }
@@ -66,7 +66,7 @@
             border: solid black;
             font-size: 60%;
     }
-    #langde{
+    #days{
         background-color: #DC8741;
         font-size: 60%;
     }
@@ -87,8 +87,3 @@
         padding: 1%;
         text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
-    .portfoliowrapper {
-      background-color: red;
-    }
-  }
